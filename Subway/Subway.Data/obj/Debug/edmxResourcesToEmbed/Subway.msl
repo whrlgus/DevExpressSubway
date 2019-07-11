@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SubwayModelStoreContainer" CdmEntityContainer="SubwayEntities">
+    <EntitySetMapping Name="Daejeons">
+      <EntityTypeMapping TypeName="SubwayModel.Daejeon">
+        <MappingFragment StoreEntitySet="Daejeon">
+          <ScalarProperty Name="날짜" ColumnName="날짜" />
+          <ScalarProperty Name="역번호" ColumnName="역번호" />
+          <ScalarProperty Name="역명" ColumnName="역명" />
+          <ScalarProperty Name="구분" ColumnName="구분" />
+          <ScalarProperty Name="승객수" ColumnName="승객수" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

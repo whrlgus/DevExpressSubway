@@ -1,0 +1,15 @@
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Console.exe.config
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Console.exe
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Console.pdb
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\EntityFramework.dll
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Data.dll
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Data.pdb
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\Subway.Data.dll.config
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\EntityFramework.xml
+C:\Users\kccistc\source\repos\Subway\Subway.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kccistc\source\repos\Subway\Subway.Console\obj\Debug\Subway.Console.csprojAssemblyReference.cache
+C:\Users\kccistc\source\repos\Subway\Subway.Console\obj\Debug\Subway.Console.csproj.CoreCompileInputs.cache
+C:\Users\kccistc\source\repos\Subway\Subway.Console\obj\Debug\Subway.Console.csproj.CopyComplete
+C:\Users\kccistc\source\repos\Subway\Subway.Console\obj\Debug\Subway.Console.exe
+C:\Users\kccistc\source\repos\Subway\Subway.Console\obj\Debug\Subway.Console.pdb

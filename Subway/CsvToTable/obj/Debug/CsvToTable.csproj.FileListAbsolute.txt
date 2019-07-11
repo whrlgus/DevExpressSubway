@@ -1,0 +1,7 @@
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\bin\Debug\CsvToTable.exe.config
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\bin\Debug\CsvToTable.exe
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\bin\Debug\CsvToTable.pdb
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.csprojAssemblyReference.cache
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.csproj.CoreCompileInputs.cache
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.exe
+C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.pdb

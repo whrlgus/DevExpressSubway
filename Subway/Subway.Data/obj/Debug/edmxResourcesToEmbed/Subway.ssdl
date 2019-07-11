@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SubwayModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Daejeon">
+    <Key>
+      <PropertyRef Name="날짜" />
+      <PropertyRef Name="역번호" />
+      <PropertyRef Name="구분" />
+    </Key>
+    <Property Name="날짜" Type="datetime" Nullable="false" />
+    <Property Name="역번호" Type="int" Nullable="false" />
+    <Property Name="역명" Type="nvarchar" MaxLength="50" />
+    <Property Name="구분" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="승객수" Type="int" />
+  </EntityType>
+  <EntityContainer Name="SubwayModelStoreContainer">
+    <EntitySet Name="Daejeon" EntityType="Self.Daejeon" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
