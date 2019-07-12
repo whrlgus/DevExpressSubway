@@ -25,6 +25,19 @@ namespace Subway.Data
                 return list;
             }
         }
+        public static List<String> GetStation()
+        {
+            using (DbContext context = new SubwayEntities())
+            {
+                IQueryable<Daejeon> query = context.Set<Daejeon>();
+
+                // lazy execution
+                var q = query.Select(x => x.역명).Distinct();
+
+                return q.ToList();
+            }
+
+        }
 
     }
 }
