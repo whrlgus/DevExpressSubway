@@ -5,3 +5,10 @@ C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug
 C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.csproj.CoreCompileInputs.cache
 C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.exe
 C:\Users\kccistc\Desktop\데브익스프레스팀프\Subway\CsvToTable\obj\Debug\CsvToTable.pdb
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.exe.config
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.exe
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.pdb
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csprojAssemblyReference.cache
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csproj.CoreCompileInputs.cache
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.exe
+D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.pdb

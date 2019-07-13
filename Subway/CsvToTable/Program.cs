@@ -8,6 +8,7 @@ namespace CsvToTable
 {
     class Program
     {
+        #region csv 파일을 datatable 형태로 변환
         public static DataTable ConvertCSVtoDataTable(string strFilePath)
         {
             Encoding encode = Encoding.GetEncoding("ks_c_5601-1987"); // 한글깨짐방지
@@ -29,8 +30,9 @@ namespace CsvToTable
             }
             return dt;
         }
+        #endregion
 
-        // TODO: 
+        #region 0-1,1-2,...따위의 컬럼들을 '날짜' 컬럼으로 수직화
         private static DataTable ModiFyTable(DataTable rawDataTable)
         {
             DataTable dt = new DataTable();
@@ -43,15 +45,13 @@ namespace CsvToTable
             dt.Columns.Add("승객수");
 
             foreach (DataRow row in rawDataTable.Rows)
-            {
                 for (int i = 4; i < rawDataTable.Columns.Count; ++i)
-                {
                     dt.Rows.Add(new object[] { row[0] + " " + rawDataTable.Columns[i].ColumnName.Substring(0, 2) + ":00:00", row[1], row[2], row[3], row[i] });
-                }
-            }
             return dt;
         }
+        #endregion
 
+        #region datatable을 이용하여 mssql 서버에 테이블 생성
         static void ExportDataTableToDatabase(DataTable dt)
         {
             SqlConnection con = new SqlConnection("Data Source=.;uid=sa;pwd=a1234a;database=Subway");
@@ -76,15 +76,19 @@ namespace CsvToTable
             }
             con.Close();
         }
+        #endregion
 
         static void Main(string[] args)
         {
-            DataTable rawDataTable = ConvertCSVtoDataTable("D:\\subway.csv");
+            DataTable rawDataTable = ConvertCSVtoDataTable("../../subway.csv");
+            //DataTable rawDataTable = ConvertCSVtoDataTable("D:\\subway.csv");
             DataTable modifiedDataTable = ModiFyTable(rawDataTable);
             ExportDataTableToDatabase(modifiedDataTable);
 
-
             return;
+
+            #region 샘플 코드
+            /*
             SqlConnection con = new SqlConnection("Data Source=.;uid=sa;pwd=a1234a;database=Subway");
             con.Open();
 
@@ -114,6 +118,8 @@ namespace CsvToTable
                 // adapter.Update(ds.Tables[0]); (Incase u have a data-set)
             }
             con.Close();
+            */
+            #endregion
         }
 
 
