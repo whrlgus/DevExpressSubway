@@ -4,11 +4,12 @@
     <EntitySetMapping Name="Daejeons">
       <EntityTypeMapping TypeName="SubwayModel.Daejeon">
         <MappingFragment StoreEntitySet="Daejeon">
-          <ScalarProperty Name="날짜" ColumnName="날짜" />
+          <ScalarProperty Name="날짜시간" ColumnName="날짜시간" />
           <ScalarProperty Name="역번호" ColumnName="역번호" />
           <ScalarProperty Name="역명" ColumnName="역명" />
           <ScalarProperty Name="구분" ColumnName="구분" />
           <ScalarProperty Name="승객수" ColumnName="승객수" />
+          <ScalarProperty Name="요일" ColumnName="요일" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -75,17 +75,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
     <EntityDeploy Include="Subway.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Subway.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
-    <None Include="packages.config" />
     <None Include="Subway.edmx.diagram">
       <DependentUpon>Subway.edmx</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Subway.Context.tt">
@@ -98,9 +99,6 @@
       <DependentUpon>Subway.edmx</DependentUpon>
       <LastGenOutput>Subway.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

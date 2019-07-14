@@ -11,10 +11,10 @@ namespace Subway.Console
     {
         static void Main(string[] args)
         {
-            List<string> stations = DataRepository.Daejeon.GetStation();
+            List<string> stations = DataRepository.Daejeon.GetStationNames();
             List<Daejeon> list = DataRepository.Daejeon.GetAll();
-            
-            foreach (var item in stations)
+            var l = DataRepository.Daejeon.GetPassengers();
+            foreach (var item in l)
             {
                 System.Console.WriteLine(item);
             }

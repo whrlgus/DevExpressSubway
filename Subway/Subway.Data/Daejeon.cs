@@ -14,10 +14,11 @@ namespace Subway.Data
     
     public partial class Daejeon
     {
-        public System.DateTime 날짜 { get; set; }
+        public System.DateTime 날짜시간 { get; set; }
         public int 역번호 { get; set; }
         public string 역명 { get; set; }
         public string 구분 { get; set; }
         public Nullable<int> 승객수 { get; set; }
+        public Nullable<int> 요일 { get; set; }
     }
 }
