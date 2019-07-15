@@ -46,9 +46,12 @@ namespace Subway
             ChartTitle chartTitle1 = new ChartTitle();
             chartTitle1.Text = "요일별 승하차 인원";
             chartControl1.Titles.Add(chartTitle1);
+            chartControl1.RuntimeHitTesting = true;
 
             UpdateSeries(null);
         }
+
+
 
         #region TODO: 역별 승하차 승객 수 순위 파이차트
         private void InitPieChartControl()
@@ -147,6 +150,18 @@ namespace Subway
                 UpdateSeries(null);
             else
                 UpdateSeries(selectedStation.Text);
+        }
+
+        private void ChartControl1_MouseClick(object sender, MouseEventArgs e)
+        {
+            ChartHitInfo hit = chartControl1.CalcHitInfo(e.X, e.Y);
+            SeriesPoint point = hit.SeriesPoint;
+
+            if (point != null)
+            {
+                // Update...ChartControl(point.Argument);
+                Debug.WriteLine(point.Argument);
+            }
         }
     }
 }
