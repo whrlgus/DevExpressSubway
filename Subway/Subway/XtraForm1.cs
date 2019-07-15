@@ -26,9 +26,9 @@ namespace Subway
         {
             base.OnLoad(e);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            InitChartControl();
+            //InitChartControl();
             InitMapControl();
-            //InitPieChartControl();
+            InitPieChartControl();
         }
 
         private void InitMapControl()
