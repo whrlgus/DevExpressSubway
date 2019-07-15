@@ -10,3 +10,15 @@ C:\tmp\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.csproj.CoreComp
 C:\tmp\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.csproj.CopyComplete
 C:\tmp\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.dll
 C:\tmp\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.pdb
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\Subway.Data.dll.config
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\Subway.Data.dll
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\Subway.Data.pdb
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\EntityFramework.dll
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\EntityFramework.xml
+C:\git\DevExpressSubway\Subway\Subway.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\git\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.csprojAssemblyReference.cache
+C:\git\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.csproj.CoreCompileInputs.cache
+C:\git\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.csproj.CopyComplete
+C:\git\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.dll
+C:\git\DevExpressSubway\Subway\Subway.Data\obj\Debug\Subway.Data.pdb
