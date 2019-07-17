@@ -88,13 +88,13 @@ namespace CsvToTable
         #region datatable을 이용하여 mssql 서버에 테이블 생성
         static void ExportDataTableToDatabase(DataTable dt)
         {
-            SqlConnection con = new SqlConnection("Data Source=.;uid=sa;pwd=a1234a;database=Subway");
+            SqlConnection con = new SqlConnection("Data Source=10.10.14.99;uid=sa;pwd=3512;database=Subway");
             con.Open();
 
             // 기존 테이블 삭제
-            string deleteQuery = "Drop Table " + dt.TableName;
-            SqlCommand cmd = new SqlCommand(deleteQuery, con);
-            cmd.ExecuteNonQuery();
+            //string deleteQuery = "Drop Table " + dt.TableName;
+            //SqlCommand cmd = new SqlCommand(deleteQuery, con);
+            //cmd.ExecuteNonQuery();
 
             string[] type = { "datetime", "int", "nvarchar(50)", "nvarchar(3)", "int", "int" };
 
@@ -104,7 +104,7 @@ namespace CsvToTable
                 sql += "[" + dt.Columns[i].ColumnName + "] " + type[i] + ",";
             sql += "PRIMARY KEY(" + dt.Columns[0].ColumnName + "," + dt.Columns[1].ColumnName + "," + dt.Columns[3].ColumnName + "))";
 
-            cmd = new SqlCommand(sql, con);
+            SqlCommand cmd = new SqlCommand(sql, con);
             cmd.ExecuteNonQuery();
 
             using (var adapter = new SqlDataAdapter("SELECT * FROM " + dt.TableName, con))

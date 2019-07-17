@@ -18,6 +18,9 @@ namespace Subway.Console
             {
                 System.Console.WriteLine(item);
             }
+
+
+            List<Population> pop = PopulationConveter.Instance.Convert("../../subway.csv");
         }
     }
 }

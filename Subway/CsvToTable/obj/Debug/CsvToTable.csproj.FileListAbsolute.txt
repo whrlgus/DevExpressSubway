@@ -12,3 +12,10 @@ D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csprojAssembly
 D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csproj.CoreCompileInputs.cache
 D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.exe
 D:\GitHub\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.pdb
+C:\git\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.exe.config
+C:\git\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.exe
+C:\git\DevExpressSubway\Subway\CsvToTable\bin\Debug\CsvToTable.pdb
+C:\git\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csprojAssemblyReference.cache
+C:\git\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.csproj.CoreCompileInputs.cache
+C:\git\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.exe
+C:\git\DevExpressSubway\Subway\CsvToTable\obj\Debug\CsvToTable.pdb
